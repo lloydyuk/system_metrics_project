@@ -1,0 +1,22 @@
+[project]
+name = "system-metrics-tool"
+version = "0.1.0"
+description = "A simple CLI tool for viewing system metrics."
+authors = [
+    { name = "lloyd" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sysinfo = "system_metrics_tool.system_metrics:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["system_metrics_tool"]
+
+
