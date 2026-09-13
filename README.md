@@ -1,4 +1,9 @@
 # System Metrics Tool
+
+![Python](https://img.shields.io/badge/Python-3.14.6-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Build Status](https://github.com/lloydyuk/system_metrics_project/actions/workflows/ci.yml/badge.svg)
+
 System Metrics Tool is a lightweight Python command‑line utility that displays live system information in real time.
 It provides a clean terminal dashboard showing CPU usage, clock speed, RAM consumption, disk utilisation, network upload/download speeds, GPU details, and system uptime — all refreshed every second.
 
